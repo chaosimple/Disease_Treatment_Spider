@@ -1,0 +1,16 @@
+#!wing
+#!version=5.0
+##################################################################
+# Wing IDE project file                                          #
+##################################################################
+[project attributes]
+proj.directory-list = [{'dirloc': loc('sd_spider'),
+                        'excludes': (),
+                        'filter': u'*',
+                        'include_hidden': False,
+                        'recursive': True,
+                        'watch_for_changes': True}]
+proj.file-list = [loc('1.py'),
+                  loc('Model.py'),
+                  loc('sd_spider/Model.py')]
+proj.file-type = 'shared'
